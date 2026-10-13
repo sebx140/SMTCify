@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "smtcify",
+  "version": "${version}",
+  "name": "SMTCify",
+  "description": "Integración de controles multimedia de Windows con Minecraft.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.smtcify.mod.SmtcifyMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*",
+    "smtcify_bridge": "*"
+  }
+}
