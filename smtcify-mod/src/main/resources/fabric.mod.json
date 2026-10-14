@@ -1,3 +1,4 @@
+
 {
   "schemaVersion": 1,
   "id": "smtcify",
@@ -8,6 +9,9 @@
   "entrypoints": {
     "client": [
       "dev.smtcify.mod.SmtcifyMod"
+    ],
+    "modmenu": [
+      "dev.smtcify.mod.SmtcifyModMenu"
     ]
   },
   "depends": {
